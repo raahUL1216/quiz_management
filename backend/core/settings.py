@@ -30,7 +30,12 @@ SECRET_KEY = 'django-insecure-pgeoqj2^un1(2e60$_%s!#ml*q$3^v#0jpgomi%$-hvh0_^&i%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    "quiz-management-service.onrender.com",
+    "https://quiz-management-te23.onrender.com/"
+]
 
 
 # Application definition
