@@ -9,7 +9,8 @@
 - Display results after completion (e.g., score or correct answers)
 
 ### Deliverables
-- [Quiz Management](https://quiz-management-te23.onrender.com)
+- [CMS for admin/teacher](https://quiz-management-service.onrender.com/admin/)
+- [Quiz Management User Site](https://quiz-management-te23.onrender.com)
 - Final demo
 - A short reflection (~5 min) at the end on what you would do next if you had more time
 
