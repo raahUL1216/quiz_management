@@ -46,4 +46,10 @@
 Higher level architecture
 - ReactJS, Django
 
-Schema
+## Reflection
+- Authorization, Authentication
+- User with Quiz, we can show multiple attemps of the quiz
+- Fix the display issue of test scoring. Additionally, show the whole quiz itself, with the user marked answer and correct answer
+-Add home button to navigate to all quiz listing pages
+- improve overall UI/UX(loader, pages, question scoring) and integrate tailwind to speed up stying of the pages
+- review the code given by chatGPT (for security performance best practices)

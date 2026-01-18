@@ -17,7 +17,7 @@ export default function QuizListPage() {
 
   return (
     <div>
-      <h1>Available Tests</h1>
+      <h1>Available Quizzes</h1>
       {quizzes.map(q => (
         <QuizCard key={q.id} quiz={q} />
       ))}
