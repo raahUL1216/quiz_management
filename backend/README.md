@@ -1,6 +1,8 @@
 ## Launch backend
 > poetry run python manage.py runserver
 
+#### Launch in production
+> poetry run uvicorn core.asgi:application --host 0.0.0.0 --port 8000
 
 ### DB setup
 > poetry run python manage.py makemigrations
