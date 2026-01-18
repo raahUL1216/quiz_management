@@ -17,4 +17,3 @@ python manage.py shell
 
 #### Create superuser
 > poetry run python manage.py createsuperuser
-

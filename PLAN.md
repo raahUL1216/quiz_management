@@ -17,7 +17,33 @@
 ### Approach
 - Assumptions
 - Scope
-- Prioritize
 - High-level architecture, 
 - Schema
 
+### Scope:
+#### CMS
+- admin should be able to create quiz
+- admin should be able to create various types of questions
+
+#### LMS
+- user can see list of quizes
+- user can attemp any quiz
+- user should be able to see the quiz score on submission
+
+
+### Assumptions:
+
+#### CMS
+- question types will be MCQ and radio type
+- scoring of each of the question types will be positive (+1mark only)
+- add question to multiple quiz
+
+#### LMS
+- we will not have user authentication & authorization
+- user can attemp test multiple times
+- quiz will not have a timer
+
+Higher level architecture
+- ReactJS, Django
+
+Schema
